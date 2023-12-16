@@ -1,7 +1,14 @@
 
 # Redis Demo Project
 
-This is a simple Redis demo project showcasing the integration of Redis caching in a full-stack application with a React UI and a Node.js backend. The backend fetches user data from MongoDB, and Redis is used to cache the data, resulting in significantly improved performance.
+This is a simple Redis demo project showcasing the integration of Redis caching in an application with a React frontend and a Node.js backend with mongoDB database. The backend fetches user data from MongoDB, and Redis is used to cache the data, resulting in significantly improved performance.
+This demo demonstrates the benefits of using Redis as cache between web application and a data store which is mongoDB database in this demo.
+# Results
+Without Redis (Time taken 137 ms)
+<img width="971" alt="Screenshot 2023-12-16 at 9 35 15 PM" src="https://github.com/rohithooda10/redis-demo/assets/109358642/c4c92a7e-66d5-4560-a681-dcdc8ff90bd3">
+
+With Redis (Time taken 5ms)
+<img width="978" alt="Screenshot 2023-12-16 at 9 38 48 PM" src="https://github.com/rohithooda10/redis-demo/assets/109358642/764208ce-fe76-44a1-9ce2-3e8373b8e3bc">
 
 ## Prerequisites
 
@@ -98,8 +105,3 @@ Example: To get the "users" key, use the following command in the `redis-cli`:
 ```bash
 GET users
 ```
-
-This project demonstrates a substantial improvement in performance by caching user data in Redis. Enjoy exploring the Redis demo!
-```
-
-Copy and paste this markdown code into your README.md file.
